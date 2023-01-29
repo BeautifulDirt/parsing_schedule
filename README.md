@@ -2,6 +2,8 @@
 
 :star: STAR ME!
 
+!["Результат"](./src/img/result/sled_20230129.jpg)
+
 Создаем образ для будущих контейнеров, в которых будут запускаться **python-скрипты** по **cron**:
 
 `docker build -t dirt_py_cron:3.8-slim-buster .`

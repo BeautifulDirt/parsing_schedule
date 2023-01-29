@@ -1,0 +1,11 @@
+[vk_send_msg]
+token=
+id_chat=
+
+[vk_send_stories]
+token=
+id_group=
+
+[tg_send_post]
+token=
+channel=

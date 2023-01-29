@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  sled_schedule:
+    container_name: sled_schedule
+    image: dirt_py_cron:3.8-slim-buster
+    volumes:
+      - .:/sled_schedule
+    command: bash -c ./sled_schedule/start.sh
+    network_mode: host
+    restart: always
+    environment:
+      - TZ=Europe/Moscow
+      - PYTHONUNBUFFERED=1
