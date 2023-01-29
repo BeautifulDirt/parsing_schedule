@@ -2,7 +2,7 @@
 
 :star: STAR ME!
 
-!["Результат"](./src/img/result/sled_20230129.jpg =250x)
+ <img src="./src/img/result/sled_20230129.jpg" width="300">
 
 Создаем образ для будущих контейнеров, в которых будут запускаться **python-скрипты** по **cron**:
 
