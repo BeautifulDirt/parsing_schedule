@@ -2,7 +2,9 @@
 
 :star: STAR ME!
 
- <img src="./src/img/result/sled_20230129.jpg" width="300">
+ <img src="./src/readme/tv_schedule.jpg" width="640">
+
+ ## Инструкция для запуска
 
 Создаем образ для будущих контейнеров, на основе которых будут запускаться **python-скрипты** по **cron**:
 
