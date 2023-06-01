@@ -20,6 +20,8 @@ def _text_series_format(s):
         return ' '.join(text_list[:2]) + '\n' +  ' '.join(text_list[2:]), True
     elif len(text_list) > 4:
         return ' '.join(text_list[:3]) + '\n' +  ' '.join(text_list[3:]), True
+    elif len(' '.join(text_list[:3])) >= 32 and len(text_list) > 2:
+        return ' '.join(text_list[:2]) + '\n' +  ' '.join(text_list[2:]), True
     else:
         return s, False
          
